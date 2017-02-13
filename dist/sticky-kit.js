@@ -7,7 +7,7 @@
 (function() {
   var $, win;
 
-  $ = window.jQuery;
+  $ = jQuery || window.jQuery;
 
   win = $(window);
 
